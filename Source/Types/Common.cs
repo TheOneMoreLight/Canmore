@@ -8,6 +8,6 @@ namespace Canmore.Types
         public bool Ok { get; set; }
 
         [JsonPropertyName("result")]
-        public T? Result { get; set; }
+        public T Result { get; set; }
     }
 }

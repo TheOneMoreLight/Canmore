@@ -9,10 +9,7 @@ namespace Canmore.Methods
         {
             var request = await Client.SendRequestAsync($"{Data.GetUrl()}/getMe");
             var botData = JsonSerializer.Deserialize<Common<User>> (request);
-            if (botData == null)
-                throw new NullReferenceException();
-            else
-                return botData;
+            return botData;
         }
     }
 }

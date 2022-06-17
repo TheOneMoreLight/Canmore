@@ -8,10 +8,10 @@ namespace Canmore
         public record class Constants
         {
             [JsonPropertyName("base_url")]
-            public string? BaseUrl { get; set; }
+            public string BaseUrl { get; set; }
 
             [JsonPropertyName("token")]
-            public string? Token { get; set; }
+            public string Token { get; set; }
         }
         
         public static Constants GetConstants()

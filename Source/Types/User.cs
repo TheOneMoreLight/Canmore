@@ -11,16 +11,16 @@ namespace Canmore.Types
         public bool IsBot { get; set; }
 
         [JsonPropertyName("first_name")]
-        public string? FirstName { get; set; }
+        public string FirstName { get; set; }
 
         [JsonPropertyName("last_name")]
-        public string? LastName { get; set; }
+        public string LastName { get; set; }
 
         [JsonPropertyName("username")]
-        public string? Username { get; set; }
+        public string Username { get; set; }
 
         [JsonPropertyName("language_code")]
-        public string? LanguageCode { get; set; }
+        public string LanguageCode { get; set; }
 
         [JsonPropertyName("can_join_groups")]
         public bool CanJoinGroups { get; set; }
